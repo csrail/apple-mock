@@ -1,0 +1,152 @@
+/*
+ * CONTENTS
+ *
+ * SETTINGS
+ * Global
+ *
+ * BASE
+ * Element1:                   BlockT1
+ *  Element2:                   BlockT2
+ *    Element3:                   BlockT3
+ *    Element3:                   BlockT3
+ *    Element3:                   BlockT3
+ *  Element2                   BlockT1
+ *
+ *
+ *
+ */
+ 
+/*-------------------------
+	#GLOBAL
+--------------------------*/
+
+
+
+
+
+
+/*-------------------------
+	#NAV -- Horizontal Main
+--------------------------*/
+
+.horizontal-main__nav {
+  width: 980px;
+  height: 36px;
+  position: relative;
+  background-color: gray;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 4px;
+  z-index: 1;
+  
+}
+
+
+
+.main-nav__list-item {
+  background-color: pink;
+  float: left;
+  background-image: url(../images/nav-navigation/globalnav_text.svg);
+}
+
+
+
+
+
+
+/*-------------------------
+	#LIST-ITEM -- Main Nav
+--------------------------*/
+
+.apple-home__list-item--sprite {
+  width: 18px;
+	height: 23px;
+  background-repeat: no-repeat;
+  background-position: -71px -2px;
+}
+
+.store__list-item--sprite {
+  width: 31px;
+	height: 12px;
+  background-repeat: no-repeat;
+  background-position: -64px -38px;
+}
+
+.mac__list-item--sprite {
+  width: 24px;
+	height: 12px;
+  background-repeat: no-repeat;
+  background-position: -68px -68px;
+}
+
+.ipod__list-item--sprite {
+  width: 26px;
+	height: 13px;
+  background-position: no-repeat;
+  background-position: -67px -97px;
+}
+
+.iphone__list-item--sprite {
+  width: 41px;
+	height: 13px;
+  background-repeat: no-repeat;
+  background-position: -60px -127px;
+}
+
+.ipad__list-item--sprite {
+  width: 24px;
+	height: 13px;
+  background-repeat: no-repeat;
+  background-position: -68px -158px;
+}
+
+.itunes__list-item--sprite {
+  width: 38px;
+	height: 12px;
+  background-repeat: no-repeat;
+  background-position: -61px -188px;
+}
+
+.support__list-item--sprite {
+  width: 48px;
+	height: 15px;
+  background-repeat: no-repeat;
+  background-position: -56px -218px;
+}
+
+
+
+
+
+/*-------------------------
+	#SECTION -- Main
+--------------------------*/
+
+.main__section {
+  width: 1440px;
+  height: 538px;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.main__figure {
+  width: 1440px;
+  height: 538px;
+  background-image: url("../images/section-main/your_verse_hero.jpg");
+  background-repeat: no-repeat;
+  background-position: 0px -776px;
+  background-size: 1440px 1315px;
+}
+
+.mural__image {
+  
+}
+
+.mural__figcaption--overlay {
+  text-align: center;
+  position: relative;
+  top: 200px;
+}
