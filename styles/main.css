@@ -127,7 +127,7 @@
 
 .main__section {
   width: 1440px;
-  height: 538px;
+  height: 610px;
   margin: auto;
   position: absolute;
   left: 0;
@@ -135,29 +135,26 @@
   top: 0;
 }
 
-.main__figure {
+.mural__figure {
   width: 1440px;
-  height: 538px;
+  height: 610px;
   background-image: url("../images/section-main/your_verse_hero.jpg");
   background-repeat: no-repeat;
-  background-position: 0px -776px;
+  background-position: 0px -700px;
   background-size: 1440px 1315px;
 }
 
-.mural__image {
-  
-}
+
 
 .mural__figcaption--overlay {
-  width: 900px;
+  width: 800px;
   position: relative;
   margin: auto;
-  top: 170px;
+  top: 210px;
   text-align: center;
   font-family: Roboto;
   font-weight: 300;
-  color: #fff;
-  line-height: 50px;
+  line-height: 40px;
 }
 
 .mural-title__heading1 {
@@ -166,11 +163,80 @@
 
 .mural-blurb__heading2 {
   position: relative;
-  margin-top: 20px;
+  margin-top: 24px;
   font-size: 30px;
 }
 
-.mural-redirect__heading4 {
-  margin-top: 30px;
+.mural-watch-video__heading4 {
+  margin-top: 24px;
   font-size: 24px;
 }
+
+.mural__anchor {
+  text-decoration: none;
+  color: #fff;
+}
+
+.watch-video__anchor:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+/*----------------------------------
+	#FOOTER -- Horizontal Promotions
+----------------------------------*/
+
+.spacer-promotions__div {
+  width: 1440px;
+  margin: auto;
+  position: relative;
+  top: 556px;
+}
+
+.horizontal-promotions__footer {
+  width: 1440px;
+  height: 200px;
+  position: relative;
+  margin: auto;
+}
+
+.horizontal-promotions__unordered-list {
+  list-style: none;
+}
+
+.promotions1__list-item, 
+.promotions2__list-item, 
+.promotions3__list-item, 
+.promotions4__list-item {
+  width: 360px;
+  height: 200px;
+  float: left;
+}
+
+.promotions1__list-item {
+  background-image: url("../images/footer-promotions/promo_iphone5s.jpg")
+}
+
+.promotions2__list-item {
+  background-image: url("../images/footer-promotions/promo_iphone5c.jpg")
+}
+
+.promotions3__list-item {
+  background-image: url("../images/footer-promotions/promo_30_years.jpg")
+}
+
+.promotions4__list-item {
+  background-image: url("../images/footer-promotions/promo_supplier_responsibility.jpg")
+}
+
+
+
+
+
+
+/*----------------------------------
+	#FOOTER -- Horizontal Promotions
+----------------------------------*/
