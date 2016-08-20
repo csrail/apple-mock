@@ -20,7 +20,10 @@
 	#GLOBAL
 --------------------------*/
 
-
+@font-face {
+  font-family: "Roboto";
+  src: local("../fonts/Roboto-Thin.ttf") format("truetype");
+}
 
 
 
@@ -146,7 +149,28 @@
 }
 
 .mural__figcaption--overlay {
-  text-align: center;
+  width: 900px;
   position: relative;
-  top: 200px;
+  margin: auto;
+  top: 170px;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 300;
+  color: #fff;
+  line-height: 50px;
+}
+
+.mural-title__heading1 {
+  font-size: 60px;
+}
+
+.mural-blurb__heading2 {
+  position: relative;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.mural-redirect__heading4 {
+  margin-top: 30px;
+  font-size: 24px;
 }
