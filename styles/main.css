@@ -36,21 +36,40 @@
   width: 980px;
   height: 36px;
   position: relative;
-  background-color: gray;
   margin: auto;
   margin-top: 20px;
   border-radius: 4px;
   z-index: 1;
-  
+  background: gray;
+  background: -moz-linear-gradient(left, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) .2%, rgba(0, 0, 0, 0) 99.8%, rgba(0, 0, 0, .2) 100%),
+              -moz-linear-gradient(top, rgba(0, 0, 0, .2) 0, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 97%, rgba(0, 0, 0, .45) 100%),
+              -moz-linear-gradient(bottom, #888 0, #6e6e6e 0, #5e5e5e 47%, #6e6e6e 48%, #8e8e8e 100%);
 }
-
-
 
 .main-nav__list-item {
-  background-color: pink;
   float: left;
-  background-image: url(../images/nav-navigation/globalnav_text.svg);
+  width: 103px;
+  height: 36px;
+  border-right: 2px solid #6e6e6e;
 }
+
+.main-nav__list-item:hover {
+  background: -moz-radial-gradient(#999, #2e2e2e 1%, #5e5e5e);
+  border-radius: 2px;
+}
+
+
+
+.main-nav__span {
+  position: relative;
+  background-image: url(../images/nav-navigation/globalnav_text.svg);
+  display: block;
+  margin: auto;
+}
+
+
+
+
 
 
 
@@ -61,63 +80,74 @@
 	#LIST-ITEM -- Main Nav
 --------------------------*/
 
-.apple-home__list-item--sprite {
+.apple-home__span--sprite {
   width: 18px;
 	height: 23px;
   background-repeat: no-repeat;
   background-position: -71px -2px;
+  top: 4px;
 }
 
-.store__list-item--sprite {
+.store__span--sprite {
   width: 31px;
 	height: 12px;
   background-repeat: no-repeat;
   background-position: -64px -38px;
+  top: 12px;
 }
 
-.mac__list-item--sprite {
+.mac__span--sprite {
   width: 24px;
 	height: 12px;
   background-repeat: no-repeat;
   background-position: -68px -68px;
+  top: 12px;
 }
 
-.ipod__list-item--sprite {
+.ipod__span--sprite {
   width: 26px;
 	height: 13px;
   background-position: no-repeat;
   background-position: -67px -97px;
+  top: 12px;
 }
 
-.iphone__list-item--sprite {
+.iphone__span--sprite {
   width: 41px;
 	height: 13px;
   background-repeat: no-repeat;
   background-position: -60px -127px;
+  top: 12px;
 }
 
-.ipad__list-item--sprite {
+.ipad__span--sprite {
   width: 24px;
 	height: 13px;
   background-repeat: no-repeat;
   background-position: -68px -158px;
+  top: 12px;
 }
 
-.itunes__list-item--sprite {
+.itunes__span--sprite {
   width: 38px;
 	height: 12px;
   background-repeat: no-repeat;
   background-position: -61px -188px;
+  top: 12px;
 }
 
-.support__list-item--sprite {
+.support__span--sprite {
   width: 48px;
 	height: 15px;
   background-repeat: no-repeat;
   background-position: -56px -218px;
+  top: 12px;
 }
 
-
+.search-bar__list-item {
+  border: none;
+  width: 140px;
+}
 
 
 
@@ -160,7 +190,7 @@
 .mural-title__paragraph {
   width: 776px;
 	height: 82px;
-  position: relative;
+  position: static;
   background-image: url("../images/section-main/your_verse_title_big.png");
   background-repeat: no-repeat;
   background-position: -102px -22px;
@@ -168,7 +198,7 @@
 }
 
 .mural-blurb__paragraph {
-  position: relative;
+  position: static;
   width: 776px;
 	height: 73px;
   background-image: url("../images/section-main/your_verse_subhead_small.png");
@@ -179,7 +209,7 @@
 }
 
 .mural-watch-video__paragraph {
-  position: relative;
+  position: static;
   width: 540px;
 	height: 29px;
   background-image: url("../images/section-main/video_redirect.png");
@@ -266,9 +296,24 @@
 	#SECTION -- Footers
 ----------------------------------*/
 
+.footers__section {
+  position: relative;
+  width: 1080px;
+  margin: auto;
+  top: 580px;
+  font-family: Roboto;
+  font-size: 11px;
+  color: #6e6e6e;
+}
 
+.footers__section a {
+  text-decoration: none;
+  color: #08c;
+}
 
-
+.footers__section a:hover {
+  text-decoration: underline;
+}
 
 
 
@@ -276,6 +321,9 @@
 	#FOOTER -- Shop
 ----------------------------------*/
 
+.shop__footer {
+  float: left;
+}
 
 
 
@@ -286,6 +334,19 @@
 	#FOOTER -- Company
 ----------------------------------*/
 
+.company__footer {
+  float: right;
+}
+
+
+.company__footer li {
+  display: inline-block;
+}
+
+.company__list-item {
+  border-right: 1px solid #ccc;
+  padding: 0 4px 0 4px;
+}
 
 
 
@@ -296,7 +357,21 @@
 	#FOOTER -- Copyright
 ----------------------------------*/
 
+.copyright__footer {
+  position: relative;
+  clear: both;
+  top: 16px;
+}
 
+.copyright-footer__element {
+  display: inline-block;
+}
 
+.terms-and-conditions__list-item {
+  padding-right: 8px;
+  border-right: 1px solid #ccc;
+}
 
-
+.privacy__list-item {
+  padding-left: 4px;
+}
