@@ -150,26 +150,48 @@
   width: 800px;
   position: relative;
   margin: auto;
-  top: 210px;
+  top: 208px;
   text-align: center;
   font-family: Roboto;
   font-weight: 300;
   line-height: 40px;
 }
 
-.mural-title__heading1 {
-  font-size: 60px;
-}
-
-.mural-blurb__heading2 {
+.mural-title__paragraph {
+  width: 776px;
+	height: 82px;
   position: relative;
-  margin-top: 24px;
-  font-size: 30px;
+  background-image: url("../images/section-main/your_verse_title_big.png");
+  background-repeat: no-repeat;
+  background-position: -102px -22px;
+  margin: auto;
 }
 
-.mural-watch-video__heading4 {
-  margin-top: 24px;
-  font-size: 24px;
+.mural-blurb__paragraph {
+  position: relative;
+  width: 776px;
+	height: 73px;
+  background-image: url("../images/section-main/your_verse_subhead_small.png");
+  background-repeat: no-repeat;
+  background-position: -102px -6px;
+  margin: auto;
+  margin-top: -4px;
+}
+
+.mural-watch-video__paragraph {
+  position: relative;
+  width: 540px;
+	height: 29px;
+  background-image: url("../images/section-main/video_redirect.png");
+  background-repeat: no-repeat;
+  background-position: -219px -2px;
+	margin: auto;
+  margin-top: 32px;
+  
+}
+
+.mural-watch-video__paragraph:hover {
+  background-position: -219px -34px;
 }
 
 .mural__anchor {
@@ -241,5 +263,40 @@
 
 
 /*----------------------------------
-	#FOOTER -- Horizontal Promotions
+	#SECTION -- Footers
 ----------------------------------*/
+
+
+
+
+
+
+
+/*----------------------------------
+	#FOOTER -- Shop
+----------------------------------*/
+
+
+
+
+
+
+
+/*----------------------------------
+	#FOOTER -- Company
+----------------------------------*/
+
+
+
+
+
+
+
+/*----------------------------------
+	#FOOTER -- Copyright
+----------------------------------*/
+
+
+
+
+
