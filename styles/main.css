@@ -213,23 +213,26 @@
 .promotions4__list-item {
   width: 360px;
   height: 200px;
+  background-repeat: no-repeat;
+  background-position: 2px 0;
   float: left;
 }
 
 .promotions1__list-item {
-  background-image: url("../images/footer-promotions/promo_iphone5s.jpg")
+  background-image: url("../images/footer-promotions/promo_iphone5s.jpg");
+  background-position: 0 0;
 }
 
 .promotions2__list-item {
-  background-image: url("../images/footer-promotions/promo_iphone5c.jpg")
+  background-image: url("../images/footer-promotions/promo_iphone5c.jpg");
 }
 
 .promotions3__list-item {
-  background-image: url("../images/footer-promotions/promo_30_years.jpg")
+  background-image: url("../images/footer-promotions/promo_30_years.jpg");
 }
 
 .promotions4__list-item {
-  background-image: url("../images/footer-promotions/promo_supplier_responsibility.jpg")
+  background-image: url("../images/footer-promotions/promo_supplier_responsibility.jpg");
 }
 
 
